@@ -52,7 +52,7 @@ public class TestIKController : MonoBehaviour
                animator.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandPositionWeight);
 
                animator.SetIKRotation(AvatarIKGoal.RightHand, rightHandObjectTransform.rotation);
-               animator.SetIKRotationWeight(AvatarIKGoal.RightHand, leftHandRotationWeight);
+               animator.SetIKRotationWeight(AvatarIKGoal.RightHand, rightHandRotationWeight);
           }
      }
 }
